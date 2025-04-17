@@ -1,0 +1,22 @@
+{
+  "yapilacaklar": [
+    {
+      "id": "2",
+      "baslik": "Alışveriş Yap",
+      "icerik": "Market alışverişi yap",
+      "tamamlandi": false
+    },
+    {
+      "id": "4",
+      "baslik": "Film İzle",
+      "icerik": "Yeni bir film izle",
+      "tamamlandi": true
+    },
+    {
+      "id": "9ed3",
+      "baslik": "Proje Yap",
+      "icerik": "Vue JS ile kullanıcı girişli güzel bir proje yap",
+      "tamamlandi": false
+    }
+  ]
+}
