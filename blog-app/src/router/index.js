@@ -1,18 +1,28 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import FireStoreView from '../views/FireStoreView.vue'
+import MakaleEkle from '@/views/MakaleEkle.vue'
+import MakaleDetay from '@/views/MakaleDetay.vue'
+
 
 const routes = [
   {
     path: '/',
-    name: 'home',
+    name: 'Home',
     component: HomeView
   },
   {
-    path: '/firestore',
-    name: 'firestore',
-    component: FireStoreView
-  }
+    path: '/ekle',
+    name: 'Ekle',
+    component: MakaleEkle
+  },
+  {
+    path: '/makale/:id',
+    name: 'Detay',
+    component: MakaleDetay,
+    props: true
+  },
+
+  
 ]
 
 const router = createRouter({

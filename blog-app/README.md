@@ -1,4 +1,4 @@
-# vue-firestore
+# blog-app
 
 ## Project setup
 ```
